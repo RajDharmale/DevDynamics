@@ -1,0 +1,46 @@
+
+.stat-box {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+}
+
+.stat-item {
+    margin-bottom: 5px;
+}
+.container {
+    margin-top: 5px;
+    border-radius: 12px;
+    border: 2px solid red;
+    height: 760px; /* Adjusted height */
+    background: aqua;
+    padding: 20px;
+    overflow-y: auto; /* Added overflow for vertical scrolling */
+}
+
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stat-box {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    overflow: hidden; /* Added overflow for hiding content if it exceeds the box */
+}
+
+.stat-item {
+    margin-bottom: 5px;
+}
+
+.charts {
+    margin-top: 20px;
+    overflow: hidden; /* Added overflow for hiding charts if they exceed the container */
+}
